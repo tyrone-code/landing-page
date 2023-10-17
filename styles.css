@@ -1,6 +1,11 @@
+body {
+  margin: 0;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
+  height: 180px;
 }
 
 .nav-links {
@@ -17,9 +22,17 @@
 }
 
 .placeholder-background-color {
-  background: red;
+  background: rgb(110, 110, 110);
   color: white;
-  width: 400px;
+  width: 550px;
+  height: 300px;
+}
+
+.placeholder-background-color p {
+  text-align: center;
+  line-height: 280px;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .hero-section {
@@ -35,14 +48,27 @@
 }
 .part-1-background-color {
   background-color: #1f2937;
+  height: 600px;
 }
 
 .website-awesome {
-  border: 2px dashed grey;
   width: 380px;
 }
 
 .website-awesome p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: large;
+  border-radius: 8%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: none;
+  font-weight: 900;
 }
