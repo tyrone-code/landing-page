@@ -1,0 +1,48 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  margin-right: 92px;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-container p {
+  margin-left: 202px;
+  font-size: 24px;
+  color: white;
+}
+
+.placeholder-background-color {
+  background: red;
+  color: white;
+  width: 400px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.hero-section h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.part-1-background-color {
+  background-color: #1f2937;
+}
+
+.website-awesome {
+  border: 2px dashed grey;
+  width: 380px;
+}
+
+.website-awesome p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
