@@ -1,6 +1,9 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-container {
@@ -161,6 +164,13 @@ button {
 }
 .footer {
   background-color: #1f2937;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  height: 100px;
 }
 
 .call-to-action-position {
@@ -169,4 +179,9 @@ button {
 
 .call-to-action-position p {
   margin-top: -20px;
+}
+
+.footer p {
+  position: relative;
+  top: 50%;
 }
